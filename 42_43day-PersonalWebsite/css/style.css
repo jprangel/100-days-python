@@ -1,0 +1,128 @@
+body {
+    background-color: #EAF6F6;
+    font-family: 'Golos Text', sans-serif;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+p {
+    color: #025252;
+    margin: 20px 20px;
+}
+
+hr {
+    height: 2px;
+    width: 10%;
+    border-color: #55D0D0;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    position: relative;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    position: absolute;
+    left: 36%;
+    top: 10%;
+    font-size: 7em;
+    font-weight: bold;
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: 'Sacramento', cursive;
+}
+
+h3 {
+    color: #11999E;
+}
+
+/** DIV **/
+
+.top-div {
+    height: 700px;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.mid-div {
+    position: relative;
+}
+
+.bot-div {
+    position: relative;
+}
+
+/**  IMAGES **/
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 10%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    width: 15%;
+    left: 20%;
+    top: 40%;
+
+}
+
+.img-mountain {
+    position: absolute;
+    bottom: 10px;
+    left: 33%;
+}
+
+.img-profile {
+    width: 200px;
+}
+
+.img-skill1 {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img-skill2 {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+/** OTHE COMPONENTS **/
+
+.footer-link {
+    color: #025252;
+    font-size: 1rem;
+}
+.footer {
+    font-size: small;
+    margin-top: 100px;
+    text-align: right;
+}
+
+.second-text {
+    font-size: 4rem;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-desc{
+    text-align: right;
+}
+
+.h2-followme{
+    margin-bottom: 10px;
+}
