@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>Blog</title>
+		<meta charset="utf-8" />
+	</head>
+    <body>
+    {% for p in posts: %}
+        <h1> {{ p['title'] }}</h1>
+        <h2> {{ p['subtitle'] }}</h2>
+    {% endfor %}
+    </body>
+</html>
